@@ -1,0 +1,84 @@
+/*----------Header -----------*/
+header{
+	background-image: url("imgs/slider_bg.jpg");
+	background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 100%;
+    visibility: inherit;
+}
+header ul li a.nav-link span{
+	color: white;
+	padding: 0px 20px;
+	line-height: 60px;
+}
+header ul li a.nav-link span:hover{
+	color: #42bdfc;
+}
+div .home .home span,
+div .snowboradSkids .snowboradSkids span,
+div .skiliftsMap .skiliftsMap span,
+div .hotelRestaurant .hotelRestaurant span,
+div .contactUs .contactUs span{
+	color: #42bdfc;
+
+}
+header ul.navbar-nav{
+	margin: 0 auto !important;
+}
+/*----------Footer -----------*/
+footer{
+	color: white;
+}
+footer .topDecor{
+	background-image: url("imgs/snowpark-footer-top-decor.png");
+	height: 419px;
+	background-position: center;
+}
+footer #id532546 {
+	background-image: url("imgs/snowpark-home-footer-bg.png");
+}
+footer .col.align-self-center{
+
+}
+footer img{
+	width: 350px;
+	padding-bottom:20px;
+}
+#footer .footer-coppy .row {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    min-height: 33px;
+}
+
+footer .row{
+	padding:70px 0;
+}
+
+/*----------Back to Top Button -----------*/
+.btt-btn {
+   cursor: pointer;
+   position: fixed;
+   bottom: .5em;
+   right: .5em;
+   padding: .5em;
+   text-decoration: none;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.2);
+   font-size: 14px;
+   outline-style: none;
+  
+}
+.btt-btn:hover {
+   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btt-btn:active {
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+#backTT {
+   z-index: -9999999;
+   position: absolute;
+   top: 0;
+}
